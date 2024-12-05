@@ -4,8 +4,9 @@ namespace NotificationChannels\Webhook;
 
 use Illuminate\Container\Container;
 use Illuminate\Support\Facades\Notification;
+use Illuminate\Support\ServiceProvider;
 
-class WebhookMessageServiceProvider
+class WebhookMessageServiceProvider extends ServiceProvider
 {
     public function boot()
     {
